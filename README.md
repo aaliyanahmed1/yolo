@@ -25,28 +25,7 @@ OpenCV (optional) – for visualization and image handling
 
 CUDA (optional) – for GPU acceleration
 
-📂 Directory Structure
-kotlin
-Copy
-Edit
-├── processed_yolo_dataset/
-│   ├── images/
-│   └── labels/
-│   └── data.yaml
-├── test_images/
-│   └── sample_road_sign.jpg
-├── runs/
-│   └── train/
-│       └── road_sign_yolo12n/
-├── train_yolo.py
-├── README.md
-🚀 Training the Model
-To start training, run:
 
-bash
-Copy
-Edit
-python trainig.py
 Training Parameters:
 
 Epochs: 100
