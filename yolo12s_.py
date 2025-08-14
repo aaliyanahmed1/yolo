@@ -3,9 +3,8 @@
 from ultralytics import YOLO
 import cv2
 
-# 1. Load a pretrained YOLOv8 model (nano/small/medium/large)
-model = YOLO("yolo12s.pt")  # change to yolov8s.pt, yolov8m.pt, yolov8l.pt as needed
-
+# 1. Load a pretrained YOLO model (nano/small/medium/large)
+model = YOLO("yolo12s.pt")  #
 # 2. Load an image
 image_path = "image.jpg"
 image = cv2.imread(image_path)
