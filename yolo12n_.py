@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import cv2
 
 # 1. Load a pretrained YOLOv8 model (nano/small/medium/large)
-model = YOLO("yolov8n.pt")  # change to yolov8s.pt, yolov8m.pt, yolov8l.pt as needed
+model = YOLO("yolo12n.pt")  # change to yolov8s.pt, yolov8m.pt, yolov8l.pt as needed
 
 # 2. Load an image
 image_path = "image.jpg"
